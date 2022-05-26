@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="online-member" />
+        <module name="online-order" />
+        <module name="online-ware" />
+        <module name="online-product" />
+        <module name="online-coupon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="online-coupon" target="1.8" />
+      <module name="online-member" target="1.8" />
+      <module name="online-order" target="1.8" />
+      <module name="online-product" target="1.8" />
+      <module name="online-ware" target="1.8" />
+      <module name="OnlineSystem" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="online-coupon" options="-parameters" />
+      <module name="online-member" options="-parameters" />
+      <module name="online-order" options="-parameters" />
+      <module name="online-product" options="-parameters" />
+      <module name="online-ware" options="-parameters" />
+    </option>
+  </component>
+</project>
